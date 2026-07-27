@@ -1,0 +1,38 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogiTrack - Gestión de Envíos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>LogiTrack</h1>
+        <h2>Gestión de Envíos</h2>
+
+        
+        <div class="form-container">
+            <h3>Crear Nuevo Envío</h3>
+            <form id="envioForm">
+                <input type="text" id="cliente" placeholder="Cliente" required>
+                <input type="text" id="destino" placeholder="Destino" required>
+                <input type="number" id="pesoKg" placeholder="Peso (kg)" step="0.1" required>
+                <input type="text" id="estado" placeholder="Estado" value="PENDIENTE">
+                <button type="submit">Crear Envío</button>
+            </form>
+        </div>
+
+        
+        <div class="list-container">
+            <h3>Lista de Envíos</h3>
+            <button id="cargarBtn">Cargar Envíos</button>
+            <ul id="enviosLista"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
