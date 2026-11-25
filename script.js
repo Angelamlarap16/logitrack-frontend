@@ -1,7 +1,7 @@
 
 // URL de la API (backend)
 //  Asegúrate de que el backend esté corriendo en el puerto 8080
-const API_URL = 'http://localhost:8080/api/envios';
+const API_URL = 'https://logitrack-36f9e.containers.snapdeploy.app/api/envios';
 
 
 
